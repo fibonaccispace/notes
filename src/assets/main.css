@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+}
+
+::selection 
+{
+    background-color: #9d62f4; 
+    color: white; 
+}
+
+:root
+{
+    --note-red: #FEB1B1;
+    --note-blue: #B1D0FE;
+    --note-yellow: #FCFEB1;
+    
+    --board-margin: 28px;
+}
+
+.note-red
+{
+    background-color: var(--note-red);
+}
+.note-blue
+{
+    background-color: var(--note-blue);
+}
+.note-yellow
+{
+    background-color: var(--note-yellow);
+}
